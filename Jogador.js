@@ -11,7 +11,7 @@ class Jogador{
     }
 
     atacar(monstro){
-       mostro.calcularDano(this.dano)
+        monstro.calcularDano(this.dano)
     }
 
 }

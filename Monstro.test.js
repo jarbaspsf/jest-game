@@ -1,3 +1,6 @@
+import Monstro from "./Monstro"
+import Jogador from "./Jogador"
+
 describe("Monstro", () => {
 
     it("Ao Iniciar um monstro ele deve ter hp = 1000 * seu level", () => {
@@ -23,8 +26,6 @@ describe("Monstro", () => {
         expect(monstro.hp).toBe(hpInicialMonstro);
         jogador.atacar(monstro);
         expect(monstro.hp).toBe(hpInicialMonstro - danoMonstro);
-
-        
-        
+             
     });
 });
