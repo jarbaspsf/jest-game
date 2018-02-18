@@ -1,3 +1,5 @@
+import Jogador from "./Jogador"
+
 describe("Jogador", () => {
 
     it("Ao Iniciar um jogador o mesmo deve ter HP = 100 * lvl", ()=> {

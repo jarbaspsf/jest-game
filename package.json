@@ -1,0 +1,32 @@
+{
+  "name": "jest-game",
+  "version": "1.0.0",
+  "description": "A simple study case for test with Jest",
+  "main": "Jogador.js",
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "jest": "^22.3.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.2.2",
+    "regenerator-runtime": "^0.11.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarbaspsf/jest-game.git"
+  },
+  "keywords": [
+    "jest",
+    "test"
+  ],
+  "author": "Jarbas Silva Filho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jarbaspsf/jest-game/issues"
+  },
+  "homepage": "https://github.com/jarbaspsf/jest-game#readme"
+}
