@@ -6,8 +6,12 @@ class Jogador{
         this.hp = level * 100;
     }
 
-    atacar(){
+    get dano(){
         return this.level * 12;
+    }
+
+    atacar(monstro){
+       mostro.calcularDano(this.dano)
     }
 
 }
